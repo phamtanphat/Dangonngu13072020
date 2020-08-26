@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textViewTitle"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold"
+        android:textColor="#f20"
+        android:textAllCaps="true"
+        android:textSize="30sp"
+        android:text="Đăng nhập hệ thống"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:id="@+id/editTextAccount"
+        android:hint="Tài khoản"
+        android:layout_below="@+id/textViewTitle"
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:id="@+id/editTextPassWord"
+        android:hint="Mật khẩu"
+        android:layout_below="@+id/editTextAccount"
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:id="@+id/buttonLogin"
+        android:text="Đăng nhập"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:layout_below="@id/editTextPassWord"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <TextView
+        tools:text="Tài khoản : phat \nMật khẩu : 123"
+        android:textSize="20sp"
+        android:layout_below="@id/buttonLogin"
+        android:id="@+id/textViewInFo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+</RelativeLayout>
