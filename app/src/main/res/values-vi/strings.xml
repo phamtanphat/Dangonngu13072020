@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Dangonngu13072020</string>
+    <string name="text_title_login">Đăng nhập hệ thống</string>
+    <string name="text_account">Tài khoản</string>
+    <string name="text_password">Mật khẩu</string>
+</resources>

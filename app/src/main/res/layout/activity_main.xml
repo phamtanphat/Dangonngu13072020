@@ -27,26 +27,26 @@
         android:textColor="#f20"
         android:textAllCaps="true"
         android:textSize="30sp"
-        android:text="Đăng nhập hệ thống"
+        android:text="@string/text_title_login"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"/>
     <EditText
         android:id="@+id/editTextAccount"
-        android:hint="Tài khoản"
+        android:hint="@string/text_account"
         android:layout_below="@+id/textViewTitle"
         android:layout_marginTop="50dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
     <EditText
         android:id="@+id/editTextPassWord"
-        android:hint="Mật khẩu"
+        android:hint="@string/text_password"
         android:layout_below="@+id/editTextAccount"
         android:layout_marginTop="50dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
     <Button
         android:id="@+id/buttonLogin"
-        android:text="Đăng nhập"
+        android:text="@string/text_login"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="50dp"
         android:layout_below="@id/editTextPassWord"
